@@ -7,7 +7,7 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-const BACKEND_BASE = (process.env.BACKEND_API_URL || 'https://kammal.vercel.app').replace(/\/+$/, '');
+const BACKEND_BASE = (process.env.BACKEND_API_URL || 'https://kamaal-backend-v2.vercel.app/').replace(/\/+$/, '');
 
 app.use(cors({ origin: '*', credentials: true }));
 app.use(express.json({ limit: '15mb' }));
