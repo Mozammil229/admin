@@ -1,0 +1,17 @@
+{
+  "name": "kamaal-admin-panel",
+  "version": "1.0.0",
+  "description": "Production Admin Web Panel for Kamaal App with Secure Proxy to Backend API",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
